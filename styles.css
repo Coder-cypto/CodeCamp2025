@@ -1,0 +1,47 @@
+:root {
+    --background: goldenrod;
+    --section: yellow;
+    --primary: #077A7D;
+    --accent: #077A7D;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: var(--section);
+    width: 800px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section h2 {
+    color: var(--accent);
+}
+
+a {
+    color: var(--accent);
+}
+
+p, a {
+    font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
